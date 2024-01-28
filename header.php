@@ -1,9 +1,9 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" href="https://github.com/tumujidenka/portfolio_ryotohiji/blob/develop/asset/media/favicon.png?raw=true">
-<link rel="stylesheet" href="http://mysite.local/wp-content/themes/ryoto_hiji/asset/css/destyle.css">
-<link rel="stylesheet" href="http://mysite.local/wp-content/themes/ryoto_hiji/asset/css/style.css">
+<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/asset/media/favicon.png?raw=true">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/asset/css/destyle.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/asset/css/style.css">
 <!-- フォント読み込み -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

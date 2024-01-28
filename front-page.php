@@ -10,7 +10,7 @@
     <header class="header">
         <div class="header__logo">
             <a href="#main-visual">
-                <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/siteicon_flame.png" alt="logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/asset/media/siteicon_flame.png" alt="logo">
             </a>
         </div>
         <div class="header__menu ff-inriaserif">
@@ -101,25 +101,25 @@
                             <ul class="slide">
                                 <li>
                                     <a href="#">
-                                        <img class="site-image site-image--left" src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--left" src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
                                         <div class="site-image--expanded">
-                                            <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png" alt="Expanded Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
                                         </div> 
                                     </a>
                                 </li>
                                 <li class="sp">
                                     <a href="#">
-                                        <img class="site-image site-image--center"  src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--center"  src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
                                         <div class="site-image--expanded">
-                                            <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png" alt="Expanded Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
                                         </div> 
                                     </a>
                                 </li>
                                 <li class="sp">
                                     <a href="#">
-                                        <img class="site-image site-image--right"  src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--right"  src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
                                         <div class="site-image--expanded">
-                                            <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png" alt="Expanded Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
                                         </div> 
                                     </a>
                                 </li>
@@ -138,29 +138,29 @@
                             <ul class="slide">
                                 <li>
                                     <a href="#">
-                                        <img class="site-image site-image--left" src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--left" src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
                                         <div class="site-image--expanded">
-                                            <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png" alt="Expanded Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
                                         </div>                                     </a>
                                 </li>
                                 <li class="sp">
                                     <a href="#">
-                                        <img class="site-image site-image--center"  src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--center"  src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
                                         <div class="site-image--expanded">
-                                            <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png" alt="Expanded Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
                                             <div class="site-image--expanded">
-                                                <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png" alt="Expanded Image">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
                                             </div>                                         
                                         </div>                                     
                                     </a>
                                 </li>
                                 <li class="sp">
                                     <a href="#">
-                                        <img class="site-image site-image--right"  src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--right"  src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
                                         <div class="site-image--expanded">
-                                            <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png" alt="Expanded Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
                                             <div class="site-image--expanded">
-                                                <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png" alt="Expanded Image">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
                                             </div>                                         
                                         </div>                                 
                                     </a>
@@ -180,23 +180,23 @@
                             <ul class="slide">
                                 <li>
                                     <a href="#">
-                                        <img class="site-image site-image--left" src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--left" src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
                                         <div class="site-image--expanded">
-                                            <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png" alt="Expanded Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
                                         </div>                                     </a>
                                 </li>
                                 <li class="sp">
                                     <a href="#">
-                                        <img class="site-image site-image--center"  src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--center"  src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
                                         <div class="site-image--expanded">
-                                            <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png" alt="Expanded Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
                                         </div>                                     </a>
                                 </li>
                                 <li class="sp">
                                     <a href="#">
-                                        <img class="site-image site-image--right"  src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--right"  src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
                                         <div class="site-image--expanded">
-                                            <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/cafe_site.png" alt="Expanded Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
                                         </div>                                     </a>
                                 </li>
                             </ul>
@@ -218,49 +218,49 @@
                 <div class="flow-menu">
                     <div class="flow-menu__title">1.お問い合わせ</div>
                     <div class="flow-menu__contents">
-                        <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/flow_1.svg" alt="flow-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_1.svg" alt="flow-icon">
                         <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
                     </div>
                 </div>
                 <div class="flow-menu">
                     <div class="flow-menu__title">2.ヒアリング</div>
                     <div class="flow-menu__contents">
-                        <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/flow_2.svg" alt="flow-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_2.svg" alt="flow-icon">
                         <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
                     </div>
                 </div>
                 <div class="flow-menu">
                     <div class="flow-menu__title">3.お見積り</div>
                     <div class="flow-menu__contents">
-                        <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/flow_3.svg" alt="flow-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_3.svg" alt="flow-icon">
                         <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
                     </div>
                 </div>
                 <div class="flow-menu">
                     <div class="flow-menu__title">4.ご制約</div>
                     <div class="flow-menu__contents">
-                        <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/flow_4.svg" alt="flow-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_4.svg" alt="flow-icon">
                         <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
                     </div>
                 </div>
                 <div class="flow-menu">
                     <div class="flow-menu__title">5.制作</div>
                     <div class="flow-menu__contents">
-                        <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/flow_5.svg" alt="flow-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_5.svg" alt="flow-icon">
                         <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
                     </div>
                 </div>
                 <div class="flow-menu">
                     <div class="flow-menu__title">6.納品</div>
                     <div class="flow-menu__contents">
-                        <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/flow_6.svg" alt="flow-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_6.svg" alt="flow-icon">
                         <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
                     </div>
                 </div>
                 <div class="flow-menu">
                     <div class="flow-menu__title">7.運用・保守</div>
                     <div class="flow-menu__contents">
-                        <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/flow_7.svg" alt="flow-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_7.svg" alt="flow-icon">
                         <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
                     </div>
                 </div>
@@ -275,7 +275,7 @@
             <div class="works__contents">
                 <div class="works-panel">
                     <div class="works-panel__image">
-                        <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/360_240.png" alt="site-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                     </div>
                     <div class="works-panel__plan">ライトプラン</div>
                     <div class="works-panel__title">ストアサイト</div>
@@ -284,7 +284,7 @@
                 </div>
                 <div class="works-panel">
                     <div class="works-panel__image">
-                        <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/360_240.png" alt="site-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                     </div>
                     <div class="works-panel__plan">スタンダートプラン</div>
                     <div class="works-panel__title">ストアサイト</div>
@@ -293,7 +293,7 @@
                 </div>
                 <div class="works-panel">
                     <div class="works-panel__image">
-                        <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/360_240.png" alt="site-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                     </div>
                     <div class="works-panel__plan">ライトプラン</div>
                     <div class="works-panel__title">ストアサイト</div>
@@ -302,7 +302,7 @@
                 </div>
                 <div class="works-panel">
                     <div class="works-panel__image">
-                        <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/360_240.png" alt="site-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                     </div>
                     <div class="works-panel__plan">ライトプラン</div>
                     <div class="works-panel__title">ストアサイト</div>
@@ -311,7 +311,7 @@
                 </div>
                 <div class="works-panel">
                     <div class="works-panel__image">
-                        <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/360_240.png" alt="site-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                     </div>
                     <div class="works-panel__plan">ライトプラン</div>
                     <div class="works-panel__title">ストアサイト</div>
@@ -320,7 +320,7 @@
                 </div>
                 <div class="works-panel">
                     <div class="works-panel__image">
-                        <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/360_240.png" alt="site-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                     </div>
                     <div class="works-panel__plan">ライトプラン</div>
                     <div class="works-panel__title">ストアサイト</div>
@@ -340,7 +340,7 @@
             </div>
             <div class="about-detail">
                 <div class="about-detail__image">
-                    <img src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/media/siteicon.png" alt="profile">
+                    <img src="<?php echo get_template_directory_uri(); ?>/asset/media/siteicon.png" alt="profile">
                 </div>
                 <div class="about-detail__description">
                     <div class="about-detail__description--text">
