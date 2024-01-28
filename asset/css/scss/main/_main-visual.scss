@@ -1,0 +1,24 @@
+@use '../var';
+
+.main-visual{
+    width: 100vw;
+    height:90vh;
+    padding-top:var.$spacing-7;
+    padding-bottom: var.$spacing-7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__title{
+        margin: auto auto;
+        text-align: center;
+        font-family: "Source code pro","Grape Nuts","Rubik";
+        h1{
+            font-size: var.$fontsize-L;
+            margin-bottom: var.$spacing-2;
+        }
+        p{
+            font-size: var.$fontsize-M;
+        }
+    }
+}
+

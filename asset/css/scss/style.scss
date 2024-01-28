@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@use 'var';
+@use 'mixin'; 
+
+@use 'parts/common';
+@use 'main/main-visual';
+@use 'main/service';
+@use 'main/flow';
+@use 'main/works';
+@use 'main/about';
+@use 'main/contact';
+@use 'main/works-child';
+@use 'main/about-child';
