@@ -1,6 +1,6 @@
 'use strict';
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 
 ////ローディングアニメーション
