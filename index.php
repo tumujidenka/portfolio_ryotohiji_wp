@@ -469,5 +469,6 @@
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
     <script src="http://mysite.local/wp-content/themes/ryoto_hiji/asset/js/main.js"></script>
+    <?php wp_footer(); ?>
 </body>
 </html>
