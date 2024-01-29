@@ -6,7 +6,10 @@ function add_stylesheet() {
   wp_enqueue_style('destyle', $theme_uri . '/asset/css/destyle.css', array(), false, 'all');
   wp_enqueue_style('slick', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', array(), false, 'all');
   wp_enqueue_style('slick-theme', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css', array(), false, 'all');
-  wp_enqueue_style('style', $theme_uri . '/asset/css/style.css', array('destyle','slick','slick-theme'),'1.0.1', false, 'all');
+  wp_enqueue_style('InriaSerif', 'https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap', array(),null, false, 'all');
+  wp_enqueue_style('SourceCodePro', 'https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap', array(),null, false, 'all');
+
+  wp_enqueue_style('style', $theme_uri . '/asset/css/style.css', array('destyle','slick','slick-theme','InriaSerif','SourceCodePro'),'1.0.3', false, 'all');
 }
 add_action('wp_enqueue_scripts', 'add_stylesheet');
 
