@@ -135,7 +135,7 @@
                     </div>
                 </div>
                 <div class="service-plan__supplement">
-                    <p>※具体的な金額については、相談可能ですので、お気軽に<a href="#contact">ご相談</a>ください。</p>
+                    <p>※具体的な金額についてはご相談可能ですので、お気軽に<a href="#contact">ご連絡</a>ください。</p>
                 </div>
             </div>
         </section>
