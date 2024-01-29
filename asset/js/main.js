@@ -1,6 +1,8 @@
+// Version:1.0.0
+
 'use strict';
 
-// gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
 
 ////ローディングアニメーション
@@ -32,7 +34,7 @@ var bar = new ProgressBar.Line(splash_text, {//id名を指定
 
 //アニメーションスタート
 bar.animate(1.0, function () {//バーを描画する割合を指定します 1.0 なら100%まで描画します
-	$("#splash").delay(500).fadeOut(800);//アニメーションが終わったら#splashエリアをフェードアウト
+	jQuery("#splash").delay(500).fadeOut(800);//アニメーションが終わったら#splashエリアをフェードアウト
 });  
 
 
@@ -144,30 +146,32 @@ document.addEventListener("DOMContentLoaded", function() {
 const service = document.querySelector('#service');
 const about = document.querySelector('#about');
 
-if(service !== null){
-    gsap.to('.background-image',{
-        scrollTrigger:{
-            trigger:'#service',
-            start: 'top center',
-            toggleActions:'play none none reverse',
-            markers:false,
-        },
-        opacity:0.5,
-        duration:0.3,
-    })
-}
-if(about !== null){
-    gsap.to('.background-image',{
-        scrollTrigger:{
-            trigger:'#about',
-            start: 'top center',
-            toggleActions:'play none none reverse',
-            markers:false,
-        },
-        opacity:0.2,
-        duration:0.3,
-    })
-}
+window.addEventListener('DOMContentLoaded',function(){
+    if(service !== null){
+        gsap.to('.background-image',{
+            scrollTrigger:{
+                trigger:'#service',
+                start: 'top center',
+                toggleActions:'play none none reverse',
+                markers:false,
+            },
+            opacity:0.5,
+            duration:0.3,
+        })
+    }
+    if(about !== null){
+        gsap.to('.background-image',{
+            scrollTrigger:{
+                trigger:'#about',
+                start: 'top center',
+                toggleActions:'play none none reverse',
+                markers:false,
+            },
+            opacity:0.2,
+            duration:0.3,
+        })
+    }
+});
 
 ////#service
 //参考サイトをホバーした際の挙動
@@ -210,11 +214,11 @@ function initSlickSlider() { //スライダー初期化
         //各プラン配下の3枚の画像
         var siteImagesForSlide = priceDetail.querySelector('.slide');
     
-        if ($(window).width() < 768) {
+        if (jQuery(window).width() < 768) {
             // siteImagesForSlide
 
-            $(document).ready(function(){
-                $(siteImagesForSlide).not('.slick-initialized').slick({
+            jQuery(document).ready(function(){
+                jQuery(siteImagesForSlide).not('.slick-initialized').slick({
                 slidesToShow: 1, // 一度に表示するスライドの数
                 slidesToScroll: 1, // 一度にスクロールするスライドの数
                 arrows: false,
@@ -232,24 +236,24 @@ function destroySlickSlider() {//スライダー削除
         //各プラン配下の3枚の画像
         var siteImagesForSlide = priceDetail.querySelector('.slide');
 
-        if ($(siteImagesForSlide).hasClass('slick-initialized')) {
-            $(siteImagesForSlide).slick('unslick');
+        if (jQuery(siteImagesForSlide).hasClass('slick-initialized')) {
+            jQuery(siteImagesForSlide).slick('unslick');
         }
     });
 }
 
   //ロード時、リサイズ時の挙動制御
-  $(document).ready(function(){
+  jQuery(document).ready(function(){
     checkSliderActivation();
   
-    $(window).resize(function() {
+    jQuery(window).resize(function() {
       checkSliderActivation();
     });
   });
 
   //スライダーのON/OFF
   function checkSliderActivation() {
-    var windowWidth = $(window).width();
+    var windowWidth = jQuery(window).width();
     if (windowWidth < 768) {
       initSlickSlider();
     } else {
