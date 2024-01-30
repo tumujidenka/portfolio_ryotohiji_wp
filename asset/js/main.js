@@ -226,10 +226,10 @@ function initSlickSlider() { //スライダー初期化
                 autoplaySpeed:4000,
                 });
             });
-        }
+        };
     
-    })
-}
+    });
+};
   
 function destroySlickSlider() {//スライダー削除
     priceDetails.forEach(priceDetail =>{
@@ -238,9 +238,9 @@ function destroySlickSlider() {//スライダー削除
 
         if (jQuery(siteImagesForSlide).hasClass('slick-initialized')) {
             jQuery(siteImagesForSlide).slick('unslick');
-        }
+        };
     });
-}
+};
 
   //ロード時、リサイズ時の挙動制御
   jQuery(document).ready(function(){
@@ -258,8 +258,8 @@ function destroySlickSlider() {//スライダー削除
       initSlickSlider();
     } else {
       destroySlickSlider();
-    }
-  }
+    };
+  };
 
 
 ////#works
