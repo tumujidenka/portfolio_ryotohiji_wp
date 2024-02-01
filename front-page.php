@@ -292,13 +292,15 @@
                 <div></div>
             </div>
         </section>
+
         <section class="contact" id="contact">
             <div class="title">
                 <p>お問い合わせ</p>
                 <h2>Contact</h2>
                 <div></div>
             </div>
-            <div class="contact__contents">
+            
+            <div class="contact__contents">               
                 <div class="progress-line">
                     <div class="progress-line__step progress-line__step--first active">
                         <div>1</div>
@@ -314,6 +316,9 @@
                     </div>
                 </div>
                 <form class="form" action="" method="post">
+                    <?php echo do_shortcode('[contact-form-7 id="44aad86" title="お問い合わせ"]'); ?>
+                </form>
+                <!-- <form class="form" action="" method="post">
                     <div class="form__name">
                         <label class="label">お名前（必須）</label>
                         <input type="text" name="fullname" required value placeholder="山田　太郎">
@@ -335,7 +340,7 @@
                     <div class="btn submit">
                         <input type="submit" value="送信">
                     </div>
-                </form>
+                </form> -->
             </div>
         </section>
     </main>
