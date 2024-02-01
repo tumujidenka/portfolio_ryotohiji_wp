@@ -700,11 +700,9 @@ body {
   /*テーブルを親要素の幅いっぱいに伸ばす*/
 }
 .form .table-res-form {
-  width: 80%;
+  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
-}
-.form .table-res-form th, .form .table-res-form td {
-  padding: 1.2em;
 }
 .form .table-res-form input[type=text], .form .table-res-form input[type=email], .form .table-res-form textarea {
   border: 1px solid #9b9b9b;
@@ -744,39 +742,21 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width: 767px) {
-  .form input, .form textarea {
-    border: 1px solid #9b9b9b;
-    border-radius: 4px;
-    max-width: 800px;
-    padding: 4px;
+@media only screen and (max-width: 767px) {
+  /*thとtdをブロック化して幅100％にして、縦積み*/
+  .form .table-res-form th, .form .table-res-form td {
+    width: 100%;
+    display: block;
   }
-  .form__name {
-    display: flex;
-    flex-direction: column;
-    margin: 8px 32px 16px;
+  .form .table-res-form th {
+    padding: 8px 0 8px;
+    text-align: left;
   }
-  .form__name label {
-    width: 256px;
-    margin-bottom: 4px;
+  .form .table-res-form td {
+    padding: 0;
   }
-  .form__mail {
-    display: flex;
-    flex-direction: column;
-    margin: 8px 32px 16px;
-  }
-  .form__mail label {
-    width: 256px;
-    margin-bottom: 4px;
-  }
-  .form__inquiry {
-    display: flex;
-    flex-direction: column;
-    margin: 8px 32px 16px;
-  }
-  .form__inquiry label {
-    width: 256px;
-    margin-bottom: 4px;
+  .form .table-res-form .btn input {
+    margin-top: 16px;
   }
 }
 .works-child {

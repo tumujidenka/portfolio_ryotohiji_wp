@@ -95,11 +95,9 @@
 
     /*テーブルを親要素の幅いっぱいに伸ばす*/
     .table-res-form {
-        width: 80%;
+        width: 100%;
+        max-width: 1000px;
         margin: 0 auto;
-        th,td{
-            padding: 1.2em;
-        }
         input[type="text"], input[type="email"], textarea {
             border: 1px solid #9b9b9b;
             padding: 0.5em;
@@ -145,43 +143,26 @@
     }
 }
 
-@media screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
+    /*thとtdをブロック化して幅100％にして、縦積み*/
     .form{
-        input,textarea{
-            border: 1px solid #9b9b9b;
-            border-radius: 4px;
-            max-width: 800px;
-            padding: var.$spacing-half;
-        }
-    
-        &__name{
-            display: flex;
-            flex-direction: column;
-            margin: var.$spacing-1 var.$spacing-4 var.$spacing-2;
-            label{
-                width: var.$spacing-10;
-                margin-bottom: var.$spacing-half;
+        .table-res-form{
+            th,td {
+                width: 100%;
+                display: block;
             }
-        }
-        &__mail{
-            display: flex;
-            flex-direction: column;
-            margin: var.$spacing-1 var.$spacing-4 var.$spacing-2;
-            label{
-                width: var.$spacing-10;
-                margin-bottom: var.$spacing-half;
+            th{
+                padding:var.$spacing-1 0 var.$spacing-1;
+                text-align: left;
             }
-        }
-        &__inquiry{
-            display: flex;
-            flex-direction: column;
-            margin: var.$spacing-1 var.$spacing-4 var.$spacing-2;
-            label{
-                width: var.$spacing-10;
-                margin-bottom: var.$spacing-half;
+            td{
+                padding:0;
+            }
+            .btn{
+                input{
+                    margin-top:var.$spacing-2;
+                }
             }
         }
     }
-    
-
 }
