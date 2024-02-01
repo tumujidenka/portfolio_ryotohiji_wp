@@ -90,9 +90,6 @@
 
 .form{
     line-height: 1.5rem;
-
-/*　ContactForm7のテーブル化レスポンシブ調整　*/
-
     /*テーブルを親要素の幅いっぱいに伸ばす*/
     .table-res-form {
         width: 100%;
@@ -137,9 +134,10 @@
             td{
                 width: 100%;
             }
-
+            input{
+                margin-top:var.$spacing-2;
+            }
         }
-        
     }
 }
 
@@ -157,11 +155,6 @@
             }
             td{
                 padding:0;
-            }
-            .btn{
-                input{
-                    margin-top:var.$spacing-2;
-                }
             }
         }
     }

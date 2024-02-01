@@ -696,7 +696,6 @@ body {
 
 .form {
   line-height: 1.5rem;
-  /*　ContactForm7のテーブル化レスポンシブ調整　*/
   /*テーブルを親要素の幅いっぱいに伸ばす*/
 }
 .form .table-res-form {
@@ -741,6 +740,9 @@ body {
 .form .table-res-form .btn td {
   width: 100%;
 }
+.form .table-res-form .btn input {
+  margin-top: 16px;
+}
 
 @media only screen and (max-width: 767px) {
   /*thとtdをブロック化して幅100％にして、縦積み*/
@@ -754,9 +756,6 @@ body {
   }
   .form .table-res-form td {
     padding: 0;
-  }
-  .form .table-res-form .btn input {
-    margin-top: 16px;
   }
 }
 .works-child {
