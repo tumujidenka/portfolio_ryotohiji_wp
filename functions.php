@@ -1,7 +1,9 @@
 <?php
 
 // TODO view moreのリンク先設定(他のページを作成してから)
-// TODO Contactフォームで作成したWPプラグインを編集
+// TODO Contactform7>確認ボタンを押した際に表示されるメッセージの修正
+// TODO Contactform7>確認ボタンを押した際に表示されるメッセージの配置調整
+// TODO Contactform7>送信完了画面の設計
 // TODO 価格、文言、画像など決める必要のあることを決める
 
 // CSSファイルの読み込み
@@ -13,7 +15,7 @@ function add_stylesheet() {
   wp_enqueue_style('InriaSerif', 'https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap', array(),null, false, 'all');
   wp_enqueue_style('SourceCodePro', 'https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap', array(),null, false, 'all');
 
-  wp_enqueue_style('style', $theme_uri . '/asset/css/style.css', array('destyle','slick','slick-theme','InriaSerif','SourceCodePro'),'1.0.4', false, 'all');
+  wp_enqueue_style('style', $theme_uri . '/asset/css/style.css', array('destyle','slick','slick-theme','InriaSerif','SourceCodePro'),'1.0.6', false, 'all');
 }
 add_action('wp_enqueue_scripts', 'add_stylesheet');
 

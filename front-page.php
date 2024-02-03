@@ -32,9 +32,9 @@
                             <ul class="slide">
                                 <li>
                                     <a href="#">
-                                        <img class="site-image site-image--left" src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--left" src="<?php echo get_template_directory_uri(); ?>/asset/media/my_portfolio.png">
                                         <div class="site-image--expanded">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/my_portfolio.png" alt="Expanded Image">
                                         </div> 
                                     </a>
                                 </li>
@@ -318,29 +318,6 @@
                 <form class="form" action="" method="post">
                     <?php echo do_shortcode('[contact-form-7 id="44aad86" title="お問い合わせ"]'); ?>
                 </form>
-                <!-- <form class="form" action="" method="post">
-                    <div class="form__name">
-                        <label class="label">お名前（必須）</label>
-                        <input type="text" name="fullname" required value placeholder="山田　太郎">
-                    </div>
-                    <div class="form__mail">
-                        <label class="label">メールアドレス（必須）</label>
-                        <input type="email" name="mail" required value placeholder="yamadataro@example.co.jp">
-                    </div>
-                    <div class="form__inquiry">
-                        <label class="label">お問い合わせ内容</label>
-                        <textarea name="inquiry" required id="inquiry" cols="30" rows="10"></textarea>
-                    </div>
-                    <div class="btn confirm">
-                        <input type="submit" value="確認画面へ">
-                    </div>
-                    <div class="btn back">
-                        <input type="submit" value="戻る">
-                    </div>
-                    <div class="btn submit">
-                        <input type="submit" value="送信">
-                    </div>
-                </form> -->
             </div>
         </section>
     </main>

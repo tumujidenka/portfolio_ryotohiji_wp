@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* 
-Version:1.0.6
+Version:1.0.4
 */
 body {
   font-family: "Hiragino Kaku Gothic ProN", "Helvetica Neue", Arial, "Hiragino Sans", "Meiryo", sans-serif;
@@ -696,7 +696,6 @@ body {
 
 .form {
   line-height: 1.5rem;
-  font-size: 16px;
   /*テーブルを親要素の幅いっぱいに伸ばす*/
 }
 .form .table-res-form {
@@ -708,6 +707,7 @@ body {
   border: 1px solid #9b9b9b;
   padding: 0.5em;
   border-radius: 5px;
+  margin-bottom: 0.5em;
   width: 100%;
 }
 .form .table-res-form input[type=text]:focus, .form .table-res-form textarea:focus {
@@ -718,9 +718,6 @@ body {
   width: 30%;
   text-align: left;
   font-weight: normal;
-}
-.form .table-res-form td {
-  padding-bottom: 1em;
 }
 .form .table-res-form input[type=submit] {
   text-align: center;
@@ -751,12 +748,6 @@ body {
   height: 20px;
   background-color: #fff;
   border: 1px solid #333333;
-  -webkit-appearance: auto;
-     -moz-appearance: auto;
-          appearance: auto;
-}
-.form .confirm span {
-  margin-left: 0;
 }
 
 @media only screen and (max-width: 767px) {
