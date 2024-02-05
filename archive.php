@@ -7,6 +7,7 @@
 
 <body>
     <?php get_template_part('includes/header'); ?>
+    
     <main>
         <div class="works-child">
             <div class="title">
@@ -146,6 +147,20 @@
             </div>
         </div>
     </main>
+    
+    <!-- <php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> -->
+
+  <!-- // ここに表示内容を記述する -->
+    <!-- <php endwhile;?> -->
+
+    <!-- <php the_posts_pagination(); ?> -->
+
+    <!-- <php else : ?> -->
+
+    <!-- <p>まだ記事がありません</p> -->
+
+    <!-- <php endif; ?> -->
+
     <?php get_template_part('includes/footer'); ?>
 
     <?php get_footer(); ?>

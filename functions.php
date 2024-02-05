@@ -4,6 +4,8 @@
 // TODO Contactform7>確認ボタンを押した際に表示されるメッセージの修正
 // TODO Contactform7>確認ボタンを押した際に表示されるメッセージの配置調整
 // TODO Contactform7>送信完了画面の設計
+// TODO Contactform7>送信完了したことを感知して、表示を変更するロジック
+
 // TODO 価格、文言、画像など決める必要のあることを決める
 
 // CSSファイルの読み込み
@@ -32,3 +34,18 @@ function add_script() {
 }
 add_action('wp_enqueue_scripts', 'add_script');
 
+
+
+
+//archive.phpを読み込むための設定
+/* 投稿アーカイブを有効にしてスラッグを指定する */
+function post_has_archive( $args, $post_type ) {
+
+  if ( 'post' == $post_type ) {
+      $args['rewrite'] = true;
+      $args['has_archive'] = 'works'; // スラッグ名
+  }
+  return $args;
+
+}
+add_filter( 'register_post_type_args', 'post_has_archive', 10, 2 );

@@ -4,7 +4,6 @@
 
 gsap.registerPlugin(ScrollTrigger);
 
-
 ////ローディングアニメーション
 //テキストのカウントアップ+バーの設定
 var bar = new ProgressBar.Line(splash_text, {//id名を指定
@@ -295,3 +294,5 @@ panels.forEach(panel => {
         });
     });
 });
+
+  

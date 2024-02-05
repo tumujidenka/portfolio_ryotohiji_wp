@@ -288,7 +288,7 @@
                 </div>
             </div>
             <div class="view-more">
-                <p><a href="https://tumujidenka.github.io/portfolio_ryotohiji/about.html">view more</a></p>
+                <p><a href="/works/">view more</a></p>
                 <div></div>
             </div>
         </section>
@@ -318,6 +318,10 @@
                 <form class="form" action="" method="post">
                     <?php echo do_shortcode('[contact-form-7 id="44aad86" title="お問い合わせ"]'); ?>
                 </form>
+                <!-- サンクスメッセージ用のコンテナ -->
+                <div id="thank-you-message" style="display: none;">
+                    <p>お問い合わせいただきありがとうございます！</p>
+                </div>
             </div>
         </section>
     </main>
