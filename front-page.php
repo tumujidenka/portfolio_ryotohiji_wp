@@ -260,7 +260,7 @@
                 </div>
             </div>
             <div class="view-more">
-                <p><a href="https://tumujidenka.github.io/portfolio_ryotohiji/works.html">view more</a></p>
+                <p><a href="<?php echo home_url(); ?>/works/">view more</a></p>
             </div>
         </section>
         <section class="about" id="about">
@@ -288,7 +288,7 @@
                 </div>
             </div>
             <div class="view-more">
-                <p><a href="/works/">view more</a></p>
+                <p><a href="<?php echo home_url(); ?>/about/">view more</a></p>
                 <div></div>
             </div>
         </section>

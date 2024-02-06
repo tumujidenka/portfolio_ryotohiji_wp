@@ -1,12 +1,19 @@
 <?php
 
-// TODO view moreのリンク先設定(他のページを作成してから)
-// TODO Contactform7>確認ボタンを押した際に表示されるメッセージの修正
-// TODO Contactform7>確認ボタンを押した際に表示されるメッセージの配置調整
+//Topページ
 // TODO Contactform7>送信完了画面の設計
 // TODO Contactform7>送信完了したことを感知して、表示を変更するロジック
-
+// TODO Contactform7>確認ボタンを押した際に表示されるメッセージの配置調整
+// TODO Contactform7>確認ボタンを押した際に表示されるメッセージの修正
 // TODO 価格、文言、画像など決める必要のあることを決める
+
+//#Worksページ
+// TODO Worksページでのヘッダー部分。元々のスムーススクロールではなく、別ページへの遷移も必要になる
+// TODO 価格、文言、画像など決める必要のあることを決める
+
+//#Aboutページ
+//TODO 写真の画像のリンク修正
+
 
 // CSSファイルの読み込み
 function add_stylesheet() {
@@ -30,7 +37,7 @@ function add_script() {
   wp_enqueue_script('gsap-scrollToPlugin', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js', array(), true, 'all');
   wp_enqueue_script('gsap-scrollTrigger', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js', array(), true, 'all');
   wp_enqueue_script('slick-js', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery'), true);
-  wp_enqueue_script('theme-main-js', $theme_uri . '/asset/js/main.js', array('jquery','progressbar','gsap-min','gsap-scrollToPlugin','gsap-scrollTrigger','slick-js'),'1.0.0', true, 'all');
+  wp_enqueue_script('theme-main-js', $theme_uri . '/asset/js/main.js', array('jquery','progressbar','gsap-min','gsap-scrollToPlugin','gsap-scrollTrigger','slick-js'),'1.0.1', true, 'all');
 }
 add_action('wp_enqueue_scripts', 'add_script');
 

@@ -19,7 +19,7 @@
                 <a href="#">
                     <div class="workspanel-child">
                         <div class="workspanel-child__image">
-                            <img src="./asset/media/360_240.png" alt="site-image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                         </div>
                         <div class="workspanel-child__plan">ライトプラン</div>
                         <div class="workspanel-child__title">ストアサイト</div>
@@ -32,7 +32,7 @@
                 <a href="#">
                     <div class="workspanel-child">
                         <div class="workspanel-child__image">
-                            <img src="./asset/media/360_240.png" alt="site-image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                         </div>
                         <div class="workspanel-child__plan">ライトプラン</div>
                         <div class="workspanel-child__title">ストアサイト</div>
@@ -45,7 +45,7 @@
                 <a href="#">
                     <div class="workspanel-child">
                         <div class="workspanel-child__image">
-                            <img src="./asset/media/360_240.png" alt="site-image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                         </div>
                         <div class="workspanel-child__plan">ライトプラン</div>
                         <div class="workspanel-child__title">ストアサイト</div>
@@ -58,7 +58,7 @@
                 <a href="#">
                     <div class="workspanel-child">
                         <div class="workspanel-child__image">
-                            <img src="./asset/media/360_240.png" alt="site-image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                         </div>
                         <div class="workspanel-child__plan">ライトプラン</div>
                         <div class="workspanel-child__title">ストアサイト</div>
@@ -71,7 +71,7 @@
                 <a href="#">
                     <div class="workspanel-child">
                         <div class="workspanel-child__image">
-                            <img src="./asset/media/360_240.png" alt="site-image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                         </div>
                         <div class="workspanel-child__plan">ライトプラン</div>
                         <div class="workspanel-child__title">ストアサイト</div>
@@ -84,7 +84,7 @@
                 <a href="#">
                     <div class="workspanel-child">
                         <div class="workspanel-child__image">
-                            <img src="./asset/media/360_240.png" alt="site-image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                         </div>
                         <div class="workspanel-child__plan">ライトプラン</div>
                         <div class="workspanel-child__title">ストアサイト</div>
@@ -97,7 +97,7 @@
                 <a href="#">
                     <div class="workspanel-child">
                         <div class="workspanel-child__image">
-                            <img src="./asset/media/360_240.png" alt="site-image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                         </div>
                         <div class="workspanel-child__plan">ライトプラン</div>
                         <div class="workspanel-child__title">ストアサイト</div>
@@ -110,7 +110,7 @@
                 <a href="#">
                     <div class="workspanel-child">
                         <div class="workspanel-child__image">
-                            <img src="./asset/media/360_240.png" alt="site-image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                         </div>
                         <div class="workspanel-child__plan">ライトプラン</div>
                         <div class="workspanel-child__title">ストアサイト</div>
@@ -123,7 +123,7 @@
                 <a href="#">
                     <div class="workspanel-child">
                         <div class="workspanel-child__image">
-                            <img src="./asset/media/360_240.png" alt="site-image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
                         </div>
                         <div class="workspanel-child__plan">ライトプラン</div>
                         <div class="workspanel-child__title">ストアサイト</div>
@@ -134,7 +134,7 @@
                     </div>
                 </a>
             </div>
-            <div class="pagination">
+            <!-- <div class="pagination">
                 <div>
                     <a href="#"  class="pagination__number active">1</a>
                 </div>
@@ -144,7 +144,7 @@
                 <div>
                    <a href="#" class="pagination__number">3</a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </main>
     
