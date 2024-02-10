@@ -15,7 +15,7 @@
                 </div>                
                 <div class="aboutchild-detail">
                     <div class="aboutchild-detail__profile-image">
-                        <img src="./asset/media/siteicon.png" alt="profile">
+                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/siteicon.png" alt="profile">
                     </div>
                     <div class="aboutchild-detail__introduction">
                         <p>こんにちは、このページをご覧いただいてありがとうございます。
@@ -51,7 +51,7 @@
                             <p class="business__contents__description">◾️職務内容<br>・大学生向けスマホアプリ企画<br>・学校業務支援システム開発<br>・テスト設計/実施</p>
                         </div>
                         <div class="business__contents business__contents--freelance">
-                            <p>フリーランス<br class="sp">として活動開始</p>
+                            <p>フリーランスとして<br class="sp">活動開始</p>
                             <p>2019年6月</p>
                             <div class="business__contents--circle"></div>
                             <p class="business__contents__description">◾️職務内容<br>・納税システム改修/試験<br>・RPA開発/保守<br>・メタバース空間開発推進<br>・Androidスマホアプリ開発</p>
@@ -96,7 +96,7 @@
                                 <p class="business-private__contents__description">◾️活動内容<br>・3~10人で本の紹介<br>・一人10分ほどで紹介<br>・月一開催</p>
                             </div>
                             <div class="business-private__contents business-private__contents--freelance">
-                                <p>フリーランス<br class="sp">として活動開始</p>
+                                <p>フリーランスとして<br class="sp">活動開始</p>
                                 <p>2019年6月</p>
                                 <div class="business-private__contents--circle"></div>
                                 <p class="business-private__contents__description">◾️職務内容<br>・納税システム改修/試験<br>・RPA開発/保守<br>・メタバース空間開発推進<br>・Androidスマホアプリ開発</p>

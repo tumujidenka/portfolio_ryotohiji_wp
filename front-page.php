@@ -32,7 +32,7 @@
                             <ul class="slide">
                                 <li>
                                     <a href="#">
-                                        <img class="site-image site-image--left" src="<?php echo get_template_directory_uri(); ?>/asset/media/my_portfolio.png">
+                                        <img class="site-image site-image--left" src="<?php echo get_template_directory_uri(); ?>/asset/media/my_portfolio_edge.png">
                                         <div class="site-image--expanded">
                                             <img src="<?php echo get_template_directory_uri(); ?>/asset/media/my_portfolio.png" alt="Expanded Image">
                                         </div> 
@@ -48,9 +48,9 @@
                                 </li>
                                 <li class="sp">
                                     <a href="#">
-                                        <img class="site-image site-image--right"  src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--right"  src="<?php echo get_template_directory_uri(); ?>/asset/media/sneakers.png">
                                         <div class="site-image--expanded">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/sneakers.png" alt="Expanded Image">
                                         </div> 
                                     </a>
                                 </li>
@@ -63,15 +63,15 @@
                             <h3>¥ 100,000</h3>
                         </div>
                         <p class="price-detail__description">会社概要、サービス案内など、名刺がわりになる<br class="sp">ようなWebサイトの作成ができます。</p>
-                        <p class="price-detail__quantity">参考分量<br>Topページ+下層2ページ程度</p>
+                        <p class="price-detail__quantity">参考分量<br>Topページ+下層4ページ程度</p>
                         <div class="price-detail__reference-site">
                             <p>参考サイト</p>
                             <ul class="slide">
                                 <li>
                                     <a href="#">
-                                        <img class="site-image site-image--left" src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--left" src="<?php echo get_template_directory_uri(); ?>/asset/media/furniture.png">
                                         <div class="site-image--expanded">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/furniture.png" alt="Expanded Image">
                                         </div>                                     </a>
                                 </li>
                                 <li class="sp">
@@ -105,7 +105,7 @@
                             <h3>¥ 150,000</h3>
                         </div>
                         <p class="price-detail__description">会社概要、サービス案内など、名刺がわりになる<br class="sp">ようなWebサイトの作成ができます。</p>
-                        <p class="price-detail__quantity">参考分量<br>Topページ+下層2ページ程度</p>
+                        <p class="price-detail__quantity">参考分量<br>Topページ+下層8ページ程度</p>
                         <div class="price-detail__reference-site">
                             <p>参考サイト</p>
                             <ul class="slide">

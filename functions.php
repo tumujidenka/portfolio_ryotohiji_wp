@@ -2,10 +2,10 @@
 
 //Topページ
 // TODO Contactform7>送信完了画面の設計
-// TODO Contactform7>送信完了したことを感知して、表示を変更するロジック
 // TODO Contactform7>確認ボタンを押した際に表示されるメッセージの配置調整
 // TODO Contactform7>確認ボタンを押した際に表示されるメッセージの修正
 // TODO 価格、文言、画像など決める必要のあることを決める
+// TODO 参考サイトクリックの遷移先を決める→全てWorksページでいい？それとも、実際のサイトでいいか？
 
 //#Worksページ
 // TODO Worksページでのヘッダー部分。元々のスムーススクロールではなく、別ページへの遷移も必要になる
@@ -24,7 +24,7 @@ function add_stylesheet() {
   wp_enqueue_style('InriaSerif', 'https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap', array(),null, false, 'all');
   wp_enqueue_style('SourceCodePro', 'https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap', array(),null, false, 'all');
 
-  wp_enqueue_style('style', $theme_uri . '/asset/css/style.css', array('destyle','slick','slick-theme','InriaSerif','SourceCodePro'),'1.0.6', false, 'all');
+  wp_enqueue_style('style', $theme_uri . '/asset/css/style.css', array('destyle','slick','slick-theme','InriaSerif','SourceCodePro'),'1.0.7', false, 'all');
 }
 add_action('wp_enqueue_scripts', 'add_stylesheet');
 
@@ -56,3 +56,14 @@ function post_has_archive( $args, $post_type ) {
 
 }
 add_filter( 'register_post_type_args', 'post_has_archive', 10, 2 );
+
+
+//contact formが送信されたことを受け取ってthanks画面を表示する
+
+function thanks_page() {
+  $theme_uri = get_template_directory_uri();
+  wp_enqueue_script('gsap-min', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js', array(), true, 'all');
+  wp_enqueue_script( 'thanks-page-js',$theme_uri . '/asset/js/thanks.js', array('gsap-min'), '1.0.0', true );
+}
+
+add_filter('wpcf7_submit', 'thanks_page');

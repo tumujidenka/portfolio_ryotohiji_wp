@@ -2,22 +2,22 @@
     <div class="footer__menu">
         <ul>
             <li>
-                <a href="#service">
+                <a href="<?php echo esc_url(home_url('/')); ?>#service">
                     <h2>Service</h2>
                 </a>
             </li>
             <li>
-                <a href="#flow">
+                <a href="<?php echo esc_url(home_url('/')); ?>#flow">
                     <h2>Flow</h2>
                 </a>
             </li>
             <li>
-                <a href="#works">
+                <a href="<?php echo esc_url(home_url('/')); ?>#works">
                     <h2>Works</h2>
                 </a>
             </li>
             <li>
-                <a href="#about">
+                <a href="<?php echo esc_url(home_url('/')); ?>#about">
                     <h2>About</h2>
                 </a>
             </li>
@@ -25,7 +25,7 @@
                 <h2>|</h2>
             </li>
             <li>
-                <a href="#contact">
+                <a href="<?php echo esc_url(home_url('/')); ?>#contact">
                     <h2>Contact</h2>
                 </a>
             </li>

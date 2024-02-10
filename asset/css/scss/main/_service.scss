@@ -79,6 +79,7 @@
                 transition:all 0.2s ease;
                 transform:translate(-50%,-50%) scale(0.3);
                 z-index:10;
+                box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
             }
         }
     }
@@ -123,6 +124,7 @@
                 }
                 .site-image--expanded{
                     display: none;
+                    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
                 }
             }
         }
