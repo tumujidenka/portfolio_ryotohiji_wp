@@ -295,4 +295,18 @@ panels.forEach(panel => {
     });
 });
 
-  
+
+//#Contact
+//CF7のフォーム送信を検知
+document.addEventListener('wpcf7mailsent', function(event) {
+    console.log('Form submission successful');
+
+    const tlForm = gsap.timeline();
+
+    tlForm.to('.wpcf7', {
+        display: "none",
+    })
+    .to('.thanks_page', {
+        display: "block",
+    });
+}, false);

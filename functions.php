@@ -58,12 +58,12 @@ function post_has_archive( $args, $post_type ) {
 add_filter( 'register_post_type_args', 'post_has_archive', 10, 2 );
 
 
-//contact formが送信されたことを受け取ってthanks画面を表示する
+// //contact formが送信されたことを受け取ってthanks画面を表示する
 
-function thanks_page() {
-  $theme_uri = get_template_directory_uri();
-  wp_enqueue_script('gsap-min', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js', array(), true, 'all');
-  wp_enqueue_script( 'thanks-page-js',$theme_uri . '/asset/js/thanks.js', array('gsap-min'), '1.0.0', true );
-}
+// function thanks_page() {
+//   $theme_uri = get_template_directory_uri();
+//   wp_enqueue_script('gsap-min', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js', array(), true, 'all');
+//   wp_enqueue_script( 'thanks-page-js',$theme_uri . '/asset/js/thanks.js', array('gsap-min'), '1.0.0', true );
+// }
 
-add_filter('wpcf7_submit', 'thanks_page');
+// add_filter('wpcf7_submit', 'thanks_page');

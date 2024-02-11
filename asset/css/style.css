@@ -696,35 +696,32 @@ body {
   color: #333333;
 }
 
-.form {
+.table-res-form {
   line-height: 1.5rem;
   font-size: 16px;
-  /*テーブルを親要素の幅いっぱいに伸ばす*/
-}
-.form .table-res-form {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
 }
-.form .table-res-form input[type=text], .form .table-res-form input[type=email], .form .table-res-form textarea {
+.table-res-form input[type=text], .table-res-form input[type=email], .table-res-form textarea {
   border: 1px solid #9b9b9b;
   padding: 0.5em;
   border-radius: 5px;
   width: 100%;
 }
-.form .table-res-form input[type=text]:focus, .form .table-res-form textarea:focus {
+.table-res-form input[type=text]:focus, .table-res-form textarea:focus {
   background: rgb(232, 246, 252);
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
 }
-.form .table-res-form th {
+.table-res-form th {
   width: 30%;
   text-align: left;
   font-weight: normal;
 }
-.form .table-res-form td {
+.table-res-form td {
   padding-bottom: 1em;
 }
-.form .table-res-form input[type=submit] {
+.table-res-form input[type=submit] {
   text-align: center;
   border: 2px solid #9b9b9b;
   border-radius: 5px;
@@ -739,16 +736,16 @@ body {
   transition: all 0.5s;
   line-height: 3rem;
 }
-.form .table-res-form input[type=submit]:hover {
+.table-res-form input[type=submit]:hover {
   border: 2px solid #333333;
 }
-.form .table-res-form .btn td {
+.table-res-form .btn td {
   width: 100%;
 }
-.form .table-res-form .btn input {
+.table-res-form .btn input {
   margin-top: 16px;
 }
-.form .confirm input[type=checkbox] {
+.table-res-form .confirm input[type=checkbox] {
   width: 20px;
   height: 20px;
   background-color: #fff;
@@ -757,12 +754,32 @@ body {
      -moz-appearance: auto;
           appearance: auto;
 }
-.form .confirm span {
+.table-res-form .confirm span {
   margin-left: 0;
+}
+
+.wpcf7-response-output {
+  display: none;
 }
 
 .thanks_page {
   display: none;
+  height: 200px;
+  width: 600px;
+  margin: 0 auto;
+}
+.thanks_page p {
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-bottom: 24px;
+}
+.thanks_page > p:nth-child(1) {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.thanks_page .thanks_description {
+  margin: 0 36px;
 }
 
 @media only screen and (max-width: 767px) {

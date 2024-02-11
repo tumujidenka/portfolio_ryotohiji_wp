@@ -300,28 +300,17 @@
                 <div></div>
             </div>
             
-            <div class="contact__contents">               
-                <div class="progress-line">
-                    <div class="progress-line__step progress-line__step--first active">
-                        <div>1</div>
-                        <p>入力</p>
-                    </div>
-                    <div class="progress-line__step progress-line__step--second">
-                        <div>2</div>
-                        <p>確認</p>
-                    </div>
-                    <div class="progress-line__step progress-line__step--third">
-                        <div>3</div>
-                        <p>完了</p>
-                    </div>
-                </div>
-                <form class="form" action="" method="post">
-                    <?php echo do_shortcode('[contact-form-7 id="44aad86" title="お問い合わせ"]'); ?>
-                </form>
+            <div class="contact__contents">
                 <!-- サンクスメッセージ用のコンテナ -->
-                <div id="thank-you-message" style="display: none;">
-                    <p>お問い合わせいただきありがとうございます！</p>
+                <div class="thanks_page">
+                    <p>お問い合わせいただきありがとうございました。</p>
+                    <div class="thanks_description">
+                        <p>送信完了いたしました。<br>内容を確認して、折り返しご連絡差し上げます。</p>
+                        <p>※内容によっては、ご返信しかねることもございます。<br>あらかじめご了承ください。</p>
+                    </div>
                 </div>
+                <!-- CF7用のコンテナ -->
+                <?php echo do_shortcode('[contact-form-7 id="44aad86" title="お問い合わせ"]'); ?>
             </div>
         </section>
     </main>
