@@ -39,7 +39,7 @@
                                     </a>
                                 </li>
                                 <li class="sp">
-                                    <a href="#">
+                                    <a href="https://tumujidenka.github.io/portforio_tsumugicafe/">
                                         <img class="site-image site-image--center"  src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
                                         <div class="site-image--expanded">
                                             <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
@@ -47,7 +47,7 @@
                                     </a>
                                 </li>
                                 <li class="sp">
-                                    <a href="#">
+                                    <a href="https://www.bestshaken.com/?sp=1">
                                         <img class="site-image site-image--right"  src="<?php echo get_template_directory_uri(); ?>/asset/media/sneakers.png">
                                         <div class="site-image--expanded">
                                             <img src="<?php echo get_template_directory_uri(); ?>/asset/media/sneakers.png" alt="Expanded Image">
@@ -86,7 +86,7 @@
                                     </a>
                                 </li>
                                 <li class="sp">
-                                    <a href="#">
+                                    <a href="https://isara.life/">
                                         <img class="site-image site-image--right"  src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
                                         <div class="site-image--expanded">
                                             <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
@@ -110,7 +110,7 @@
                             <p>参考サイト</p>
                             <ul class="slide">
                                 <li>
-                                    <a href="#">
+                                    <a href="https://flowr.is/">
                                         <img class="site-image site-image--left" src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
                                         <div class="site-image--expanded">
                                             <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">

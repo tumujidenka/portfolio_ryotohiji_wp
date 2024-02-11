@@ -1,4 +1,4 @@
-// Version:1.0.0
+// Version:1.0.1
 
 'use strict';
 
@@ -61,17 +61,30 @@ document.addEventListener("DOMContentLoaded", function() {
     const contactLink = document.querySelector('.service-plan__supplement a');
 
     menuLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
+        console.log(location.pathname);
+        if(location.pathname != "/"){
 
-            if(targetElement) {
-                const offset = -120;
-                const scrollTarget = targetElement.getBoundingClientRect().top + window.pageYOffset + offset;
-                gsap.to(window, {duration: 1, scrollTo: scrollTarget, ease: "power4.out"});
-            }
-        });
+        } else {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const href = this.getAttribute('href');
+                var hashIndex = href.indexOf('#');
+                if (hashIndex !== -1) {
+                    var hash = href.substring(hashIndex + 1);
+                    console.log(hash); 
+                } else {
+                    console.log("Hash not found");
+                }
+                
+                const targetElement = document.querySelector("#" + hash);
+
+                if(targetElement) {
+                    const offset = -120;
+                    const scrollTarget = targetElement.getBoundingClientRect().top + window.pageYOffset + offset;
+                    gsap.to(window, {duration: 1, scrollTo: scrollTarget, ease: "power4.out"});
+                }
+            });
+        }
     });
     menuLogoLink.addEventListener('click', function(e) {
         e.preventDefault();
@@ -138,6 +151,25 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+jQuery(function(){
+	const hash = location.hash;
+
+	if(hash){
+		//ページ遷移後のスクロール位置指定
+		jQuery("html, body").stop().scrollTop(0);
+		//処理を遅らせる
+		setTimeout(function(){
+			//リンク先を取得
+			const target = jQuery(hash),
+			//リンク先までの距離を取得
+			position = target.offset().top - 120;
+			//指定の場所までスムーススクロール
+			jQuery("html, body").animate({scrollTop:position}, 3000, "swing");
+		});
+	}
+});
+
 
 ////background
 //aboutのところに来たら、背景画像を薄くする

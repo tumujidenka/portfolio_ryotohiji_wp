@@ -9,7 +9,7 @@
     </div>
     <div class="header__menu ff-inriaserif">
         <ul>
-            <li><a href="<?php echo esc_url(home_url('/')); ?>">Service</a></li>
+            <li><a href="<?php echo esc_url(home_url('/')); ?>#service">Service</a></li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>#flow">Flow</a></li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>#works">Works</a></li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>#about">About</a></li>
