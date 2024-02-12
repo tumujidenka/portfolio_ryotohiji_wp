@@ -1,4 +1,4 @@
-// Version:1.0.1
+// Version:1.0.2
 
 'use strict';
 
@@ -53,12 +53,13 @@ hamburger.addEventListener('click',function(){
 });
 
 ////メニューのスムーススクロール
-//header,footer,Service>ご相談
+//header,footer,Service,flow>ご相談
 document.addEventListener("DOMContentLoaded", function() {
     const menuLinks = document.querySelectorAll('.header__menu a');
     const menuFooterLinks = document.querySelectorAll('.footer__menu a');
     const menuLogoLink = document.querySelector('.header__logo a');
-    const contactLink = document.querySelector('.service-plan__supplement a');
+    const contactLink_service = document.querySelector('.service-plan__supplement a');
+    const contactLink_flow = document.querySelector('.flow-menu__contents a');
 
     menuLinks.forEach(link => {
         console.log(location.pathname);
@@ -111,8 +112,23 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    if(contactLink !== null){
-        contactLink.addEventListener('click', function(e) {
+    if(contactLink_service !== null){
+        contactLink_service.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            if(targetElement) {
+                const offset = -120;
+                const scrollTarget = targetElement.getBoundingClientRect().top + window.pageYOffset + offset;
+                gsap.to(
+                    window,{duration: 1, scrollTo: scrollTarget, ease: "power4.out"});
+            }
+        });
+    }
+    
+    if(contactLink_flow !== null){
+        contactLink_flow.addEventListener('click', function(e) {
             e.preventDefault();
             const targetId = this.getAttribute('href');
             const targetElement = document.querySelector(targetId);

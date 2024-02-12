@@ -16,7 +16,7 @@
     &__title{
         text-align: center;
         font-size: var.$fontsize_M;
-        margin-bottom: var.$spacing-1;
+        margin-bottom: var.$spacing-2;
         font-weight: bold;
     }
     &__contents{
@@ -28,6 +28,9 @@
             width: 72px;
             height: 72px;
             margin-right: var.$spacing-4;
+        }
+        a{
+            text-decoration: underline;
         }
     }
 }

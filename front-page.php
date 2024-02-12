@@ -148,49 +148,49 @@
                     <div class="flow-menu__title">1.お問い合わせ</div>
                     <div class="flow-menu__contents">
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_1.svg" alt="flow-icon">
-                        <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
+                        <div>まずは<a href="#contact">お問い合わせフォーム</a>からご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
                     </div>
                 </div>
                 <div class="flow-menu">
                     <div class="flow-menu__title">2.ヒアリング</div>
                     <div class="flow-menu__contents">
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_2.svg" alt="flow-icon">
-                        <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
+                        <div>初回のヒアリングをオンライン通話（Google Meet または ZOOM）で行います。ホームページ制作の目的、制作内容、納期を確認いたします。</div>
                     </div>
                 </div>
                 <div class="flow-menu">
                     <div class="flow-menu__title">3.お見積り</div>
                     <div class="flow-menu__contents">
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_3.svg" alt="flow-icon">
-                        <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
+                        <div>ヒアリングで確認させていただいた内容に応じて、お見積りを作成しご連絡いたします。</div>
                     </div>
                 </div>
                 <div class="flow-menu">
                     <div class="flow-menu__title">4.ご制約</div>
                     <div class="flow-menu__contents">
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_4.svg" alt="flow-icon">
-                        <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
+                        <div>お見積りの内容をご確認いただき、問題なければご成約いただきます。着手金として、制作費用の半額をお支払いいただきます。</div>
                     </div>
                 </div>
                 <div class="flow-menu">
                     <div class="flow-menu__title">5.制作</div>
                     <div class="flow-menu__contents">
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_5.svg" alt="flow-icon">
-                        <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
+                        <div>確認した内容に基づき、制作いたします。制作状況については、随時ご連絡させていただきます。</div>
                     </div>
                 </div>
                 <div class="flow-menu">
                     <div class="flow-menu__title">6.納品</div>
                     <div class="flow-menu__contents">
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_6.svg" alt="flow-icon">
-                        <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
+                        <div>指定のサーバー等に納品させていただきます。ご確認いただき問題なければ納品完了となります。</div>
                     </div>
                 </div>
                 <div class="flow-menu">
                     <div class="flow-menu__title">7.運用・保守</div>
                     <div class="flow-menu__contents">
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flow_7.svg" alt="flow-icon">
-                        <div>まずはお問い合わせフォームからご連絡ください。どんな小さなことでも結構ですので、お気軽にご相談くださいませ。</div>
+                        <div>納品完了日より1ヶ月間は、無償で修正対応させていただきます。ご希望があれば、その後も運用サポートさせていただきます。</div>
                     </div>
                 </div>
             </div>
