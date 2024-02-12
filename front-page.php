@@ -203,58 +203,70 @@
             </div>
             <div class="works__contents">
                 <div class="works-panel">
-                    <div class="works-panel__image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
-                    </div>
-                    <div class="works-panel__plan">ライトプラン</div>
-                    <div class="works-panel__title">ストアサイト</div>
-                    <div class="works-panel__type">(Topページのみ)</div>
-                    <div class="works-panel__description">スニーカーを販売している会社のページになります。</div>
+                    <a href="#">
+                        <div class="works-panel__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/my_portfolio.png" alt="site-image">
+                        </div>
+                        <div class="works-panel__plan">ライトプラン</div>
+                        <div class="works-panel__title">ポートフォリオサイト</div>
+                        <div class="works-panel__type">(Topページ+下層2ページ)</div>
+                        <div class="works-panel__description">サービス概要や制作実績等を掲載しているサイトです。(当サイト)</div>
+                    </a>
                 </div>
                 <div class="works-panel">
-                    <div class="works-panel__image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
-                    </div>
-                    <div class="works-panel__plan">スタンダートプラン</div>
-                    <div class="works-panel__title">ストアサイト</div>
-                    <div class="works-panel__type">(Topページのみ)</div>
-                    <div class="works-panel__description">スニーカーを販売している会社のページになります。</div>
+                    <a href="https://tumujidenka.github.io/portforio_tsumugicafe/">
+                        <div class="works-panel__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="site-image">
+                        </div>
+                        <div class="works-panel__plan">ライトプラン</div>
+                        <div class="works-panel__title">カフェサイト</div>
+                        <div class="works-panel__type">(Topページのみ)</div>
+                        <div class="works-panel__description">カフェのメニューや場所などを掲載しているサンプルサイトになります。</div>
+                    </a>
                 </div>
                 <div class="works-panel">
-                    <div class="works-panel__image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
-                    </div>
-                    <div class="works-panel__plan">ライトプラン</div>
-                    <div class="works-panel__title">ストアサイト</div>
-                    <div class="works-panel__type">(Topページのみ)</div>
-                    <div class="works-panel__description">スニーカーを販売している会社のページになります。</div>
+                    <a href="#">
+                        <div class="works-panel__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/furniture.png" alt="site-image">
+                        </div>
+                        <div class="works-panel__plan">スタンダードプラン</div>
+                        <div class="works-panel__title">家具販売サイト(WP)</div>
+                        <div class="works-panel__type">(Topページ+4ページ)</div>
+                        <div class="works-panel__description">家具を販売するページのサンプルサイトになります。※WP載せ替え後遷移先設定</div>
+                    </a>
                 </div>
                 <div class="works-panel">
-                    <div class="works-panel__image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
-                    </div>
-                    <div class="works-panel__plan">ライトプラン</div>
-                    <div class="works-panel__title">ストアサイト</div>
-                    <div class="works-panel__type">(Topページのみ)</div>
-                    <div class="works-panel__description">スニーカーを販売している会社のページになります。</div>
+                    <a href="https://tumujidenka.github.io/portfolio_sneakers/">
+                        <div class="works-panel__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/sneakers.png" alt="site-image">
+                        </div>
+                        <div class="works-panel__plan">ライトプラン</div>
+                        <div class="works-panel__title">コンセプトサイト</div>
+                        <div class="works-panel__type">(Topページのみ)</div>
+                        <div class="works-panel__description">スニーカーを販売している会社のサンプルサイトになります。</div>
+                    </a>
                 </div>
                 <div class="works-panel">
-                    <div class="works-panel__image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
-                    </div>
-                    <div class="works-panel__plan">ライトプラン</div>
-                    <div class="works-panel__title">ストアサイト</div>
-                    <div class="works-panel__type">(Topページのみ)</div>
-                    <div class="works-panel__description">スニーカーを販売している会社のページになります。</div>
+                    <a href="https://tumujidenka.github.io/portfolio_reproduction_TravelBlog/">
+                        <div class="works-panel__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/blog.png" alt="site-image">
+                        </div>
+                        <div class="works-panel__plan">ライトプラン</div>
+                        <div class="works-panel__title">ブログサイト</div>
+                        <div class="works-panel__type">(Topページのみ)</div>
+                        <div class="works-panel__description">旅行に関するブログを掲載しているサンプルサイトになります。</div>
+                    </a>
                 </div>
                 <div class="works-panel">
-                    <div class="works-panel__image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/asset/media/360_240.png" alt="site-image">
-                    </div>
-                    <div class="works-panel__plan">ライトプラン</div>
-                    <div class="works-panel__title">ストアサイト</div>
-                    <div class="works-panel__type">(Topページのみ)</div>
-                    <div class="works-panel__description">スニーカーを販売している会社のページになります。</div>
+                    <a href="#">
+                        <div class="works-panel__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/iSara.png" alt="site-image">
+                        </div>
+                        <div class="works-panel__plan">スタンダードプラン</div>
+                        <div class="works-panel__title">LPサイト</div>
+                        <div class="works-panel__type">(Topページのみ)</div>
+                        <div class="works-panel__description">エンジニア育成の申し込みサイトの模写になります。※WP載せ替え後遷移先設定</div>
+                    </a>
                 </div>
             </div>
             <div class="view-more">
