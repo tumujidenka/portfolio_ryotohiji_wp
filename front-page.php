@@ -23,7 +23,7 @@
                     <div class="price-detail">
                         <div class="price-detail__price">
                             <p>ライトプラン</p>
-                            <h3>¥ 50,000</h3>
+                            <h3>¥ 30,000</h3>
                         </div>
                         <p class="price-detail__description">会社概要、サービス案内など、名刺がわりになる<br class="sp">ようなWebサイトの作成ができます。</p>
                         <p class="price-detail__quantity">参考分量<br>Topページ+下層2ページ程度</p>
@@ -47,10 +47,10 @@
                                     </a>
                                 </li>
                                 <li class="sp">
-                                    <a href="https://www.bestshaken.com/?sp=1">
-                                        <img class="site-image site-image--right"  src="<?php echo get_template_directory_uri(); ?>/asset/media/sneakers.png">
+                                    <a href="https://shimekiri-techo.words-inc.co.jp/">
+                                        <img class="site-image site-image--right"  src="<?php echo get_template_directory_uri(); ?>/asset/media/techo.png">
                                         <div class="site-image--expanded">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/sneakers.png" alt="Expanded Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/techo.png" alt="Expanded Image">
                                         </div> 
                                     </a>
                                 </li>
@@ -60,7 +60,7 @@
                     <div class="price-detail">
                         <div class="price-detail__price">
                             <p>スタンダードプラン</p>
-                            <h3>¥ 100,000</h3>
+                            <h3>¥ 70,000</h3>
                         </div>
                         <p class="price-detail__description">会社概要、サービス案内など、名刺がわりになる<br class="sp">ようなWebサイトの作成ができます。</p>
                         <p class="price-detail__quantity">参考分量<br>Topページ+下層4ページ程度</p>
@@ -72,37 +72,32 @@
                                         <img class="site-image site-image--left" src="<?php echo get_template_directory_uri(); ?>/asset/media/furniture.png">
                                         <div class="site-image--expanded">
                                             <img src="<?php echo get_template_directory_uri(); ?>/asset/media/furniture.png" alt="Expanded Image">
-                                        </div>                                     </a>
+                                        </div>                                     
+                                    </a>
                                 </li>
                                 <li class="sp">
-                                    <a href="#">
-                                        <img class="site-image site-image--center"  src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
+                                    <a href="https://luana-fitness.com/">
+                                        <img class="site-image site-image--center"  src="<?php echo get_template_directory_uri(); ?>/asset/media/fitness.png">
                                         <div class="site-image--expanded">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
-                                            <div class="site-image--expanded">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
-                                            </div>                                         
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/fitness.png" alt="Expanded Image">
                                         </div>                                     
                                     </a>
                                 </li>
                                 <li class="sp">
                                     <a href="https://isara.life/">
-                                        <img class="site-image site-image--right"  src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--right"  src="<?php echo get_template_directory_uri(); ?>/asset/media/iSara.png">
                                         <div class="site-image--expanded">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
-                                            <div class="site-image--expanded">
-                                                <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
-                                            </div>                                         
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/iSara.png" alt="Expanded Image">
                                         </div>                                 
                                     </a>
-                                    </li>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div class="price-detail">
                         <div class="price-detail__price">
                             <p>プレミアムプラン</p>
-                            <h3>¥ 150,000</h3>
+                            <h3>¥ 100,000</h3>
                         </div>
                         <p class="price-detail__description">会社概要、サービス案内など、名刺がわりになる<br class="sp">ようなWebサイトの作成ができます。</p>
                         <p class="price-detail__quantity">参考分量<br>Topページ+下層8ページ程度</p>
@@ -111,24 +106,27 @@
                             <ul class="slide">
                                 <li>
                                     <a href="https://flowr.is/">
-                                        <img class="site-image site-image--left" src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
+                                        <img class="site-image site-image--left" src="<?php echo get_template_directory_uri(); ?>/asset/media/flowr.png">
                                         <div class="site-image--expanded">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
-                                        </div>                                     </a>
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/flowr.png" alt="Expanded Image">
+                                        </div>                                     
+                                    </a>
                                 </li>
                                 <li class="sp">
-                                    <a href="#">
-                                        <img class="site-image site-image--center"  src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
+                                    <a href="https://words-inc.co.jp/">
+                                        <img class="site-image site-image--center"  src="<?php echo get_template_directory_uri(); ?>/asset/media/words.png">
                                         <div class="site-image--expanded">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
-                                        </div>                                     </a>
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/words.png" alt="Expanded Image">
+                                        </div>                                     
+                                    </a>
                                 </li>
                                 <li class="sp">
-                                    <a href="#">
-                                        <img class="site-image site-image--right"  src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png">
+                                    <a href="https://norel.jp/go">
+                                        <img class="site-image site-image--right"  src="<?php echo get_template_directory_uri(); ?>/asset/media/norel.png">
                                         <div class="site-image--expanded">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/cafe_site.png" alt="Expanded Image">
-                                        </div>                                     </a>
+                                            <img src="<?php echo get_template_directory_uri(); ?>/asset/media/norel.png" alt="Expanded Image">
+                                        </div>                                     
+                                    </a>
                                 </li>
                             </ul>
                         </div>
