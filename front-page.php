@@ -25,7 +25,7 @@
                             <p>ライトプラン</p>
                             <h3>¥ 30,000</h3>
                         </div>
-                        <p class="price-detail__description">会社概要、サービス案内など、名刺がわりになる<br class="sp">ようなWebサイトの作成ができます。</p>
+                        <p class="price-detail__description">費用を抑えながら会社概要、サービス案内等、名刺がわりになるサイトの作成ができるプランです。</p>
                         <p class="price-detail__quantity">参考分量<br>Topページ+下層2ページ程度</p>
                         <div class="price-detail__reference-site">
                             <p>参考サイト</p>
@@ -62,7 +62,7 @@
                             <p>スタンダードプラン</p>
                             <h3>¥ 70,000</h3>
                         </div>
-                        <p class="price-detail__description">会社概要、サービス案内など、名刺がわりになる<br class="sp">ようなWebサイトの作成ができます。</p>
+                        <p class="price-detail__description">充実したページ数で構成にこだわり、集客を意識したサイトを制作したい方に向けたプランです。</p>
                         <p class="price-detail__quantity">参考分量<br>Topページ+下層4ページ程度</p>
                         <div class="price-detail__reference-site">
                             <p>参考サイト</p>
@@ -99,7 +99,7 @@
                             <p>プレミアムプラン</p>
                             <h3>¥ 100,000</h3>
                         </div>
-                        <p class="price-detail__description">会社概要、サービス案内など、名刺がわりになる<br class="sp">ようなWebサイトの作成ができます。</p>
+                        <p class="price-detail__description">より多くのページ数で、自社ブランドの強みを十分に表現したサイトを作成するためのプランです。</p>
                         <p class="price-detail__quantity">参考分量<br>Topページ+下層8ページ程度</p>
                         <div class="price-detail__reference-site">
                             <p>参考サイト</p>
