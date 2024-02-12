@@ -62,9 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const contactLink_flow = document.querySelector('.flow-menu__contents a');
 
     menuLinks.forEach(link => {
-        console.log(location.pathname);
         if(location.pathname != "/"){
-
         } else {
             link.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -72,7 +70,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 var hashIndex = href.indexOf('#');
                 if (hashIndex !== -1) {
                     var hash = href.substring(hashIndex + 1);
-                    console.log(hash); 
                 } else {
                     console.log("Hash not found");
                 }
@@ -88,28 +85,48 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
     menuLogoLink.addEventListener('click', function(e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-
-        if(targetElement) {
-            const offset = -120;
-            const scrollTarget = targetElement.getBoundingClientRect().top + window.pageYOffset + offset;
-            gsap.to(window, {duration: 1, scrollTo: scrollTarget, ease: "power4.out"});
-        }
-    });
-    menuFooterLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
+        if(location.pathname != "/"){
+        } else {
             e.preventDefault();
-            const targetId = this.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
-
+            const href = this.getAttribute('href');
+            var hashIndex = href.indexOf('#');
+            if (hashIndex !== -1) {
+                var hash = href.substring(hashIndex + 1);
+            } else {
+                console.log("Hash not found");
+            }
+            const targetElement = document.querySelector("#" + hash);
+    
             if(targetElement) {
                 const offset = -120;
                 const scrollTarget = targetElement.getBoundingClientRect().top + window.pageYOffset + offset;
                 gsap.to(window, {duration: 1, scrollTo: scrollTarget, ease: "power4.out"});
-            }
-        });
+            }        
+        }
+    });
+    menuFooterLinks.forEach(link => {
+        if(location.pathname != "/"){
+        } else {
+            console.log(location.pathname);
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const href = this.getAttribute('href');
+                var hashIndex = href.indexOf('#');
+                if (hashIndex !== -1) {
+                    var hash = href.substring(hashIndex + 1);
+                } else {
+                    console.log("Hash not found");
+                }
+
+                const targetElement = document.querySelector("#" + hash);
+    
+                if(targetElement) {
+                    const offset = -120;
+                    const scrollTarget = targetElement.getBoundingClientRect().top + window.pageYOffset + offset;
+                    gsap.to(window, {duration: 1, scrollTo: scrollTarget, ease: "power4.out"});
+                }
+            });
+        }
     });
 
     if(contactLink_service !== null){
@@ -181,7 +198,7 @@ jQuery(function(){
 			//リンク先までの距離を取得
 			position = target.offset().top - 120;
 			//指定の場所までスムーススクロール
-			jQuery("html, body").animate({scrollTop:position}, 3000, "swing");
+			jQuery("html, body").animate({scrollTop:position}, 2000, "swing");
 		});
 	}
 });
