@@ -107,7 +107,6 @@ document.addEventListener("DOMContentLoaded", function() {
     menuFooterLinks.forEach(link => {
         if(location.pathname != "/"){
         } else {
-            console.log(location.pathname);
             link.addEventListener('click', function(e) {
                 e.preventDefault();
                 const href = this.getAttribute('href');
