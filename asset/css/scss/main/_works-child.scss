@@ -13,7 +13,7 @@
         margin: var.$spacing-6 var.$spacing-3 var.$spacing-5;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         column-gap: var.$spacing-5;
         row-gap: var.$spacing-4;  
     }
@@ -95,7 +95,7 @@
     .works-child{
         &__contents{
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
             column-gap: var.$spacing-5;
             row-gap: var.$spacing-4;   
         }
