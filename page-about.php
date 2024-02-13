@@ -18,14 +18,21 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/asset/media/siteicon.png" alt="profile">
                     </div>
                     <div class="aboutchild-detail__introduction">
-                        <p>こんにちは、このページをご覧いただいてありがとうございます。
-                            比治諒人と申します。
-                            エンジニアとして、キャリアをはじめて7年ほどになります。
-                            安心して、仕事を任せていただけるように、お客様とコミュニケーションをしっかりと取りながら制作を進めさせていただきます。</p>
-                        <p>私自身は、教員免許（高校物理）を持っているということもあり、ものごとをわかりやすく伝えるということに関しては、強く意識してこれまでも仕事を進めてきました。
-                            お客様が紹介したいこと、伝えたいメッセージ、サービスをユーザーにわかりやすく伝えるため
-                            一緒に並走したいと考えておりますので、どうぞよろしくお願いいたします。</p>
-                        <div class="sns-contact">SNSにて気軽にコメント・交流も可能です。<br><a href="https://twitter.com/Trivial_Tsumuji">Twitter</a></div>
+                        <div class="aboutchild-detail__introduction--name">
+                            <p>ひじ  りょうと</p>
+                            <h2>比治 諒人</h2>
+                        </div>
+                        <p>
+                            私はエンジニアとしてキャリアを始めて7年ほどになりますが、大学時代には塾講師としての経験と教員免許取得にも尽力しました。
+                            また、社会人からは、技術力向上だけでなく、コミュニケーション能力も必要だと思い、社内外で様々なイベントを企画しました。
+                        </p>
+                        <p>
+                            これらの経験を活かし、エンジニアとして技術力はもちろんのこと、お客様にとって価値のあるWebサイトを構築します。
+                            仕事中の連絡は、常にわかりやすいコミュニケーションを心がけます。
+                        </p>
+                        <div class="sns-contact">
+                            SNSにて気軽にコメント・交流も可能です。<br><a href="https://twitter.com/Trivial_Tsumuji">Twitter</a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -948,6 +948,16 @@ body {
 .aboutchild-detail__introduction .sns-contact a {
   text-decoration: underline;
 }
+.aboutchild-detail__introduction--name p {
+  font-size: 16px;
+  margin: 0;
+}
+.aboutchild-detail__introduction--name h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+  letter-spacing: 0.2rem;
+}
 
 .career-detail {
   display: flex;
@@ -1062,6 +1072,9 @@ body {
 }
 .private__contents--presentation p:nth-child(1) {
   transform: translateX(5px);
+}
+.private__contents--presentation a {
+  text-decoration: underline;
 }
 .private__contents__description {
   margin: 8px auto 0px;

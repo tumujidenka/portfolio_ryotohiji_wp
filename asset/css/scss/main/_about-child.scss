@@ -36,6 +36,18 @@
                 text-decoration: underline;
             }
         }
+        &--name{
+            p{
+                font-size: var.$fontsize-S;
+                margin:0;
+            }
+            h2{
+                font-size: var.$fontsize-M;
+                font-weight: bold;
+                text-decoration: underline;
+                letter-spacing: 0.2rem;
+            }
+        }
     }
 }
 
@@ -150,6 +162,9 @@
             margin-top: var.$spacing-5;
             p:nth-child(1){
                 transform: translateX(5px);
+            }
+            a{
+                text-decoration: underline;
             }
         }
         &__description{
