@@ -231,7 +231,7 @@
                         </div>
                         <div class="works-panel__plan">スタンダードプラン</div>
                         <div class="works-panel__title">家具販売サイト(WP)</div>
-                        <div class="works-panel__type">(Topページ+4ページ)</div>
+                        <div class="works-panel__type">(Topページ+下層4ページ)</div>
                         <div class="works-panel__description">家具を販売するページのサンプルサイトになります。※WP載せ替え後遷移先設定</div>
                     </a>
                 </div>
